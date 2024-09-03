@@ -11,4 +11,8 @@ class Movie {
         $this->$type;
         $this->$date;
     }
+
+    public function printName (){
+        echo $this-> title;
+    }
 }
