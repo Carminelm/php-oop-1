@@ -15,4 +15,8 @@ class Movie {
     public function printName (){
         echo $this-> title;
     }
+
+    public function printData (){
+        echo $this-> date;
+    }
 }
